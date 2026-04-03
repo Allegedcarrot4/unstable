@@ -1,0 +1,3 @@
+libcurl transport not available, skipping.
+Skipping /libcurl: dist path missing
+Port 8080 is in use, retrying on 8081...
