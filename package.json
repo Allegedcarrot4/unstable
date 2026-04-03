@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npm install --no-audit --no-fund && mkdir -p dist/angular && cp -r ./* dist/angular/ && tar -czf /mnt/code/code.tar.gz -C /mnt/code/src .",
+    "build": "npm install --no-audit --no-fund && tar -czf /mnt/code/code.tar.gz .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
