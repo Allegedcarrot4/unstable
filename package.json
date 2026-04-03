@@ -1,27 +1,5 @@
-{
-  "name": "unstable",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "build": "echo 'No build step required'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@mercuryworkshop/bare-as-module3": "^2.2.5",
-    "@mercuryworkshop/bare-mux": "^2.1.7",
-    "@mercuryworkshop/epoxy-transport": "^3.0.1",
-    "@mercuryworkshop/scramjet": "^1.0.2",
-    "@mercuryworkshop/wisp-js": "^0.4.1",
-    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
-    "@tomphttp/bare-server-node": "^2.0.6",
-    "express": "^5.2.1"
-  }
+"scripts": {
+  "start": "node server.js",
+  "build": "mkdir -p dist/angular && cp -r ./* dist/angular/ && tar -czf /mnt/code/code.tar.gz -C /mnt/code/src .",
+  "test": "echo \"Error: no test specified\" && exit 1"
 }
